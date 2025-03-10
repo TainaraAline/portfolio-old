@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tainara - Portfolio</title>
+  </head>
+  <body>
+    <!-- This is the input to track if the dark mode is enabled or not. -->
+    <!-- It is important for it to be positioned here, becase css selectors can apply the styles accordingly -->
+    <!-- Also, this input will be hidden to the user, so there won't be a problem for it to be located in here -->
+    <input id="dark-mode" type="checkbox" />
+    <main>
+      <section id="bio-container">
+        <header>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/tainarasb/"
+          >
+            <img src="./static/images/linkedin.svg" alt="linkedin" />
+            <span>Linkedin</span>
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/TainaraAline"
+          >
+            <img src="./static/images/github.svg" alt="github" />
+            <span>Github</span>
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://drive.google.com/file/d/1cJWbShmjZO6bu52HKbkt_niU5XJihYPs/view"
+          >
+            <img src="./static/images/resume.svg" alt="github" />
+            <span>Resume</span>
+          </a>
+          <div id="dark-mode-container">
+            <!-- Notice that in here there's only a label, but since the property "for" is pointing to the checkbox
+            it will behave similar to a click of a button, triggering the checkbox -->
+            <label for="dark-mode">
+              <img id="dark-mode-icon" src="./static/images/dark-light.svg" />
+            </label>
+          </div>
+        </header>
+        <h1>Tainara Lima</h1>
+        <div id="bio-content">
+          <div>
+            <p id="intro">
+              Aspiring front-end developer. I'm currently a student in the
+              Interactive Media Design program at Seneca College. In this
+              portfolio, my goal is to show my entire learning and development
+              process.
+            </p>
+          </div>
+          <!-- This is the image with the profile photo -->
+          <img id="hero" src="./static/images/hero.png" />
+        </div>
+      </section>
+      <!-- This is where the second part of the portfolio begins, the list of projects -->
+      <section id="projects" class="projects">
+        <h1>Delivered Projects</h1>
+        <div id="projects-list">
+          <!-- This is the list of projects. Each article is a "card" on the screen -->
+          <!-- And each card is a link where you can click to open the project -->
+          <article>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://tainaraaline.github.io/INM120_-1_BasicConcepts/"
+            >
+              <img src="./static/images/WelcometoPop_1.png" alt="preview" />
+              <div>
+                <h4>Welcome to Pop Culture!</h4>
+                <p>Exploring basic concepts - HTML</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://tainaraaline.github.io/INM120_Sentences_-2/"
+            >
+              <img src="./static/images/sentencesassign.png" alt="preview" />
+              <div>
+                <h4>2 quotes</h4>
+                <p>
+                  A page for displaying two quotes in order to explore css style
+                </p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://tainaraaline.github.io/INM120_TravelAgency_-3/"
+            >
+              <img src="./static/images/TravelAgency_3.png" alt="preview" />
+              <div>
+                <h4>Travel Agency Assigment</h4>
+                <p>
+                  Exercise to apply knowledge about HTML and CSS to adjust the
+                  page.
+                </p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://tainaraaline.github.io/BrazilianRestaurant/"
+            >
+              <img src="./static/images/br-rest.PNG" alt="preview" />
+              <div>
+                <h4>Tai Brazilian Restaurant</h4>
+                <p>
+                  Website of an imaginary restaurant with gourmet recipes
+                  inspired by Brazilian food
+                </p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://tainaraaline.github.io/INM-120-js-story/"
+            >
+              <img src="./static/images/js-story.PNG" alt="preview" />
+              <div>
+                <h4>Javascript Story</h4>
+                <p>
+                  A small assingment project to tell a story using basic
+                  concepts of Javascript
+                </p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://tainaraaline.github.io/INM-120-animations/"
+            >
+              <img src="./static/images/css-animations.PNG" alt="preview" />
+              <div>
+                <h4>The travelling Boat</h4>
+                <p>
+                  A page with series of images and svg to practice CSS
+                  animations
+                </p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/TainaraAline/Portfolio"
+            >
+              <img
+                id="portfolio-project-image"
+                src="./static/images/portfolio-dark.PNG"
+                alt="preview"
+              />
+              <div>
+                <h4>My Portfolio</h4>
+                <p>
+                  The source code of this very own project! Come check the code,
+                  assets and more!
+                </p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img class="footer-cat left" src="./static/images/footer-cat-left.svg" />
+      <img
+        class="footer-cat right"
+        src="./static/images/footer-cat-right.svg"
+      />
+      <div>
+        <img src="./static/images/location.svg" alt="location" />
+        <span>GTA, Ontario</span>
+      </div>
+      <small>Created by: Tainara Lima</small>
+    </footer>
+    <script src="./static/js/index.js"></script>
+  </body>
+</html>
