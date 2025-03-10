@@ -4,7 +4,7 @@ This project is a website where I list all the projects I've created using the c
 
 To have a look at the webpage, click the banner below!
 
-[![Portfolio](./static/images/portfolio-light.PNG)](https://tainaraaline.github.io/Portfolio/)
+[![Portfolio](./static/images/portfolio-light.PNG)](https://tainaraaline.github.io/portfolio-old/)
 
 ## Concepts used in this project
 
